@@ -3,17 +3,24 @@ package com.example.fortourism.gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Forecast {
+    @SerializedName("date")
     public String date;
 
-    @SerializedName("tmp_max")
-    public String maxTemper;
+    @SerializedName("tmp")
+    public Temperature temperature;
 
-    @SerializedName("tmp_min")
-    public String minTemper;
+    @SerializedName("cond")
+    public More more;
 
-    @SerializedName("cond_txt_d")
-    public String weatherInfoDay;
+    public class Temperature{
+        @SerializedName("max")
+        public String max;
 
-    @SerializedName("cond_txt_n")
-    public String weatherInfoNight;
+        @SerializedName("min")
+        public String min;
+    }
+    public class More{
+        @SerializedName("txt_d")
+        public String info;
+    }
 }

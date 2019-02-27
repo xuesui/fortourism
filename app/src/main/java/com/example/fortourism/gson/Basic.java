@@ -3,9 +3,16 @@ package com.example.fortourism.gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Basic {
-    @SerializedName("location")
+    @SerializedName("city")
     public String cityName;
 
-    @SerializedName("cid")
-    public String cityId;
+    @SerializedName("id")
+    public String weatherId;
+
+    @SerializedName("update")
+    public Update update;
+    public class Update{
+        @SerializedName("loc")
+        public String updateTime;
+    }
 }
