@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.example.fortourism.WeatherActivity">
+    tools:context="com.example.fortourism.acticity.WeatherActivity">
 
     <ImageView
         android:id="@+id/bing_pic_img"
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ScrollView
-                android:id="@+id/weahter_layout"
+                android:id="@+id/weather_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="none"
@@ -39,12 +39,19 @@
                     <include layout="@layout/forecast"/>
                     <include layout="@layout/aqi"/>
                     <include layout="@layout/suggestion"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/map_button"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/map1"/>
                 </LinearLayout>
             </ScrollView>
         </android.support.v4.widget.SwipeRefreshLayout>
         <fragment
             android:id="@+id/choose_area_fragment"
-            android:name="com.example.fortourism.ChooseAreaFragment"
+            android:name="com.example.fortourism.acticity.ChooseAreaFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start"/>
