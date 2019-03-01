@@ -13,14 +13,15 @@
 #### 2、空气质量
 ![](https://github.com/xuesui/fortourism/blob/master/images/3.png)
 #### 3、生活指数
-![]((https://github.com/xuesui/fortourism/blob/master/images/4.png)
+![](https://github.com/xuesui/fortourism/blob/master/images/4.png)
 ### 功能介绍
 * 进入界面为选择城市界面    
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174853.jpg)  
 * 选择完毕后进入天气界面（可滑动)     
-左上的Button可以回到切换城市界面   
-最下面的地图Button可以进入定位界面  
+左上的Button可以回到切换城市界面    
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174826.jpg) 
+最下面的地图Button可以进入定位界面  
+![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174832.jpg)
 * 定位地图界面  
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174844.jpg)
-* PS:空气质量接口解析尚未完善 有bug 之后会重新写好
+* PS:空气质量接口解析尚未完善 有bug 之后会重新写好 
