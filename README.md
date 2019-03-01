@@ -6,3 +6,6 @@
 * [天气api接口]https://free-api.heweather.com/s6/weather  
 * [空气质量接口]https://free-api.heweather.com/s6/air/now  
 * [城市列表接口]http://guolin.tech/api/china  
+### api介绍  
+* 接口获取请求用okHttp方法，返回格式为Json，用Gson和GsonFormat插件解析。
+#### 1、实时天气
