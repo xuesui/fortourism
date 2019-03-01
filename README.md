@@ -5,7 +5,8 @@
 这是一个天气app，同时能够看到用户的定位，以及简单的地图周边环境。  
 * [天气api接口]https://free-api.heweather.com/s6/weather  
 * [空气质量接口]https://free-api.heweather.com/s6/air/now  
-* [城市列表接口]http://guolin.tech/api/china    
+* [城市列表接口]http://guolin.tech/api/china   
+* [必应图片接口]http://guolin.tech/api/bing_pic
 ### api介绍  
 * 接口获取请求用okHttp方法，返回格式为Json，用Gson和GsonFormat插件解析，采用litepal数据库。
 #### 1、实时天气
@@ -18,7 +19,8 @@
 * 进入界面为选择城市界面    
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174853.jpg)  
 * 选择完毕后进入天气界面（可滑动)     
-左上的Button可以回到切换城市界面    
+左上的Button可以回到切换城市界面   
+背景图片为必应图片 每日自动更新  
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174826.jpg) 
 最下面的地图Button可以进入定位界面  
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174832.jpg)
