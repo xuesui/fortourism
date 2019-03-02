@@ -1,6 +1,6 @@
 # 旅游必备
 ![image](https://github.com/xuesui/fortourism/raw/master/images/logo.jpg)
-## 重庆邮电大学红岩移动开发部Android学员2018年寒假考核作业
+## 重庆邮电大学红岩移动开发部Android学员2019年寒假考核作业
 ### 应用介绍
 这是一个天气app，同时能够看到用户的定位，以及简单的地图周边环境。  
 * [天气api接口]https://free-api.heweather.com/s6/weather  
@@ -21,6 +21,8 @@
 * 选择完毕后进入天气界面（可滑动)     
 左上的Button可以回到切换城市界面   
 背景图片为必应图片 每日自动更新  
+下拉界面可以实现手动更新  
+后台服务自动更新  
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174826.jpg) 
 最下面的地图Button可以进入定位界面  
 ![](https://github.com/xuesui/fortourism/blob/master/images/imagesScreenshot_20190301-174832.jpg)
